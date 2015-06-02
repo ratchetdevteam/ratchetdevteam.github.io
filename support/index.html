@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<title>RATCHET GAMES</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link href="/favicon.ico" rel="shortcut icon"/>
+<link href="/favicon-64.png" rel="icon" type="image/png"/>
+<link href="/favicon-152.png" rel="apple-touch-icon-precomposed"/>
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/foundation.min.css" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/fonts.css" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.min.css" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,500italic,400italic,100italic,900italic,300italic,700italic,800italic%7CAlegreya:400italic,700italic,900italic,400,900,700"/>
+
+<script async src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script async src="/javascripts/modernizr.js"></script>
+</head>
+<body>
+	<div class="off-canvas-wrap" data-offcanvas>
+		<div class="inner-wrap">
+			<nav id="mobile-nav" class="show-for-small-down tab-bar">
+				<div class="left-small">
+					<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+				</div>
+				<div class="middle tab-bar-section">
+					<a href="/">
+						<img id="mobile-logo-icon" class="texture" width="100" height="108" src="/images/icons/logo_icon.svg" alt=""/>
+						<h1>Ratchet Games</h1>
+					</a>
+				</div>
+			</nav>
+			<aside class="left-off-canvas-menu">
+				<ul class="off-canvas-list">
+					<li><label>Menu</label></li>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/crag">CRAG</a></li>
+					<li><a href="/support">Kickstarter</a></li>
+					<li><a href="/contact">Contact</a></li>
+				</ul>
+			</aside>
+			<div class="main-content">
+			<header id="nav" class="show-for-medium-up">
+				<div class="row">
+					<div class="small-12 columns">
+						<div id="logo-table">
+							<a class="link-object" href="/">
+								<img id="logo-icon" class="texture" width="100" height="108" src="/images/icons/logo_icon.svg" alt="RG"/>
+							</a>
+							<div id="logo-menu">
+								<h1 class="texture"><a href="/"><span class="kerning">Ratchet</span><span class="kerning">Games</span></a></h1>
+								<ul class="texture">
+									<li><a href="/about">About</a></li>
+									<li><a href="/crag">CRAG</a></li>
+									<li><a href="/support">Kickstarter</a></li>
+									<li><a href="/contact">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main id="content">
+
+<article class="section">
+	<div class="row">
+		<div id="mission" class="small-12 columns">
+			<p>
+				<span>Ratchet Games</span> was established in early 2012 by a group of entrepreneurs inspired to make unique and challenging games. Ratchet is currently developing <span style="color:#DA4915">CRAG</span>, a third-person <span>m</span>ultiplayer <span>o</span>nline <span>b</span>attle <span>a</span>rena game that aims for a fresh and diverse look on an industry standard.
+			</p>
+		</div>
+	</div>
+</article>
+<article class="section">
+	<div class="row">
+		<div class="small-12 columns text-center">
+			<p style="font-size: 150%;">Kickstarter is coming soon - hang tight for more details!</p>
+		</div>
+	</div>
+</article>
+
+<article id="social" class="contact section">
+	<div class="row">
+		<div class="small-12 columns">
+			<h3 class="texture">Connect with us</h3>
+			<ul>
+				<li><a href="http://twitter.com/ratchetdevteam"><i class="texture icon-twitter"></i></a></li>
+				<li><a href="http://facebook.com/ratchetgames"><i class="texture icon-facebook"></i></a></li>
+				<li><a href="http://instagram.com/ratchetdevteam"><i class="texture icon-instagram"></i></a></li>
+				<li><a href="https://plus.google.com/118330867667954053339/"><i class="texture icon-google-plus"></i></a></li>
+				<li><a href="http://ratchetdevteam.tumblr.com"><i class="texture icon-tumblr"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</article>
+
+			</main>
+			<footer id="bottom">
+				<div class="row text-center">
+					<div class="small-12 columns">
+						&copy; Ratchet Games 2014. All Rights Reserved.
+					</div>
+				</div>
+			</footer>
+			</div>
+			<a class="exit-off-canvas"></a>
+		</div>
+	</div>
+	<script>
+		(function(e){function t(t,n,r,i){var s=t.text().split(n),o="";if(s.length){e(s).each(function(e,t){o+='<span class="'+r+(e+1)+'">'+t+"</span>"+i});t.empty().append(o)}}var n={init:function(){return this.each(function(){t(e(this),"","char","")})},words:function(){return this.each(function(){t(e(this)," ","word"," ")})},lines:function(){return this.each(function(){var n="eefec303079ad17405c889e092e105b0";t(e(this).children("br").replaceWith(n).end(),n,"line","")})}};e.fn.lettering=function(t){if(t&&n[t]){return n[t].apply(this,[].slice.call(arguments,1))}else if(t==="letters"||!t){return n.init.apply(this,[].slice.call(arguments,0))}e.error("Method "+t+" does not exist on jQuery.lettering");return this}})(jQuery);$(function(){$(".kerning").lettering()});
+	</script>
+	<script src="/javascripts/foundation.min.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+</body>
+</html>
